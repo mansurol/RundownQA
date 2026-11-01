@@ -9,7 +9,7 @@ import Payment from "../../pages/Payments/Payment";
 
 require("dotenv").config();
 
-test("FullBusinessJourney", async ({ page }) => {
+test("BusinessJourney", async ({ page }) => {
   const login = new Login(page);
   const clients = new Clients(page);
   const createNewProject = new CreateNewProject(page);
