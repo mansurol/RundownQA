@@ -7,8 +7,7 @@ import WorkOrder from "../../pages/WorkOrders/WorkOrders";
 import Invoice from "../../pages/Invoices/CreateInvoices";
 import Payment from "../../pages/Payments/Payment";
 
-require("dotenv").config();
-
+import "dotenv/config";
 test("BusinessJourney", async ({ page }) => {
   const login = new Login(page);
   const clients = new Clients(page);

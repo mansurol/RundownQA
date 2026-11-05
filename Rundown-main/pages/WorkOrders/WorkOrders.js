@@ -35,9 +35,8 @@ class CreateWorkOrder {
     });
 
     this.ReceivedFromClient = page.getByRole("button", {
-      name: "Received from client Optional",
+      name: "Received from client (",
     });
-
     this.FileInput = page.locator('input[type="file"]');
 
     this.PdfFile = path.resolve(
